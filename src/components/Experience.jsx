@@ -10,7 +10,7 @@ export const Experience = () => {
         <div className="px-8 flex flex-col gap-12">
           <div className="flex flex-col gap-4">
             <div className="flex justify-center">
-              <button className="tag">Experience</button>
+              <div className="tag">Experience</div>
             </div>
             <div className="flex justify-center">
               <p className="subheading">
@@ -22,7 +22,9 @@ export const Experience = () => {
             <ExperienceBox
               title={"Sr. Frontend Developer"}
               text1={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
-              text2={"Ut pretium arcu et massa semper, id fringilla leo semper."}
+              text2={
+                "Ut pretium arcu et massa semper, id fringilla leo semper."
+              }
               text3={"Sed quis justo ac magna."}
               text4={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
               date={"Nov 2021 - Present"}
